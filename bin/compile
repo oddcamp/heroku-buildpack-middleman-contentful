@@ -24,5 +24,8 @@ fi
 # Set HOME back to default value
 export HOME=$HOME_BACK
 
-# Just build the static site
+# Fetch prismic content
+bundle exec middleman prismic
+
+# And build the static site
 bundle exec middleman build --clean --verbose
