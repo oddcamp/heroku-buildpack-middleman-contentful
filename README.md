@@ -1,7 +1,7 @@
 # Middleman Build Pack
 
-This is a build pack for [Middleman](http://middlemanapp.com) that will
-create your static site.
+Originally forked from [heroku-buildpack-prismic](https://github.com/hashicorp/heroku-buildpack-middleman) this is a build pack for [Middleman](http://middlemanapp.com) and [middleman-prismic](https://github.com/kollegorna/middleman-prismic) that will
+create your static site and fetch your content from Prismic.
 
 It is cleaner than most Middleman build packs out there because it
 takes advantage of the [heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi)
